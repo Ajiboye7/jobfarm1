@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+  .NavBar{
+    background-color: #F4F4F4;
+      color: #fff;
+    }
+    .Container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        margin-left: 25px;
+    }
+    .logo h1{
+        color: #303030;
+    }
+    .NavBar a{
+      color: #303030;
+      text-decoration: none;
+      font-size: 30px;
+    
+    }
+    .links{
+        margin-right: 20px;
+        color: #374254;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: block;
+    }
+    .NavBar a{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .links sup{
+        font-size: 15px;
+    }
+    .links button{
+        border-radius: 10px;
+        border: 2px solid #006BFF;
+        background: linear-gradient(90deg, #FF5E30 0%, #006BFF 100.05%);
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    /*Dropdown*/
+    
+    .items{
+        border: 1px solid #374254;
+        border-radius: 10px;
+        height: 500px;
+        width: 400px;
+        position: absolute;
+        top: 4rem;
+        right: 20rem;
+        background-color:  #F4F4F4;
+        margin-top: 30px;
+
+    }
+      .items::before{
+        content: "";
+        position: absolute;
+        top: -14px;
+        right: 10rem;
+        width: 25px;
+        height: 25px;
+        background-color: #F4F4F4;
+        transform: rotate(45deg);
+        border-left: 1px solid grey;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid white;
+    }
+
+    input{
+        border: 1px solid #303030;
+        margin-left: 10px;
+    }
+    .search{
+        padding-top: 15px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .items h2{
+        color: #FF5E30;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-left: 30px;
+        color: #303030;
+        font-family: ABeeZee;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .fa-caret-down{
+        margin-left: -36px;
+        height: 25px;
+        width: 50px;
+        color: #C4C4C4;;
+    }
+.fa-magnifying-glass{
+    color: #006BFF;
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    height: 25px;
+}
